@@ -1,0 +1,24 @@
+type bitstring = E | Z of bitstring | U of bitstring;;
+
+let rec string_of_bitstring = function
+    E -> ""
+  | Z s -> "0" ^ string_of_bitstring s
+  | U s -> "1" ^ string_of_bitstring s
+;;
+
+string_of_bitstring (U (U (Z (U (Z E)))));;
+
+let rec inc = function
+    E -> U E
+  | Z E -> U E
+  | U E -> U (Z E)
+  | Z s -> Z (inc s)
+  | U s -> (match inc s with
+        Z s' -> U s'
+      | U s' -> U (Z s')
+      | _ -> failwith "cannot happen")
+;;
+
+inc (Z E);;
+
+inc (U (Z E));;

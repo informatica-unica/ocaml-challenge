@@ -1,0 +1,6 @@
+# Deck of cards
+
+```ocaml
+type suit = Spades | Hearts | Diamonds | Clubs;;
+type card = Card of int * suit;;
+```

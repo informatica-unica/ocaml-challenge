@@ -1,0 +1,15 @@
+(* isPar : ('a * 'b) list -> bool *)
+
+let isPar = function
+    [] -> true
+  | (a,b)::l -> not List.mem (a,b) l
+                  
+(* isTot : ('a * 'b) list -> bool *)
+
+let isTot = function
+  
+(* isInj : ('a * 'b) list -> bool *)
+
+(* isSurj : ('a * 'b) list -> bool *)
+
+(* isMono : ('a * 'b) list -> bool *)

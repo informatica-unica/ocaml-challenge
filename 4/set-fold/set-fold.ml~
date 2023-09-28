@@ -1,0 +1,38 @@
+let mem x l = List.fold_left (fun b y -> b || x=y) false l;;
+
+mem 2 [1;2;3];;
+
+let mkset l = List.fold_left (fun l' x -> if mem x l' then l' else x::l') [] l;;
+
+mkset [1;2;3;1;2;1];;
+
+let count x l = List.fold_left (fun n y -> n + (if x=y then 1 else 0)) 0 l;;
+
+count 1 [1;2;1;4;5;1;6];;
+
+let dup l = List.fold_left (fun b x -> b || List.mem x l) false l;;
+
+dup [1;2;3;4;5];;
+
+let rec mkset = function
+    [] -> []
+  | x::l -> (if mem x l then [] else [x]) @ mkset l;;
+
+let rec union xl = function
+    [] -> xl
+  | y::yl -> (if mem y xl then [] else [y]) @ (union xl yl);;
+
+let rec inter xl = function
+    [] -> []
+  | y::yl -> (if mem y xl then [y] else []) @ (inter xl yl);;
+
+let rec diff xl yl = match xl with
+    [] -> []
+  | x::xl' -> (if mem x yl then [] else [x]) @ diff xl' yl;;
+
+let rec dsum xl yl =
+  union (List.map (fun x -> (0,x)) xl) (List.map (fun y -> (1,y)) yl);;
+
+let rec powset = function
+    [] -> [[]]
+  | x::xl -> let yll = powset xl in yll @ List.map (fun yl -> union [x] yl) yll;;

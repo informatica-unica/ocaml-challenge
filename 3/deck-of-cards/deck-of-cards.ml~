@@ -1,0 +1,18 @@
+type suit = Spades | Hearts | Diamonds | Clubs;;
+type card = Card of int * suit;;
+type deck = Deck of card list;;
+
+let d0 = [Card(1,Spades); Card(1,Hearts); Card(1,Diamonds); Card(1,Clubs); Card(2,Spades); Card(2,Hearts)];;
+
+let rec dup l = match l with
+    [] -> false
+  | c::l' -> List.mem c l' || dup l'
+;;
+
+let is_card (Card (n,s)) = n>=1 && n<=10;;
+
+let is_deck (Deck l) = (not (dup l)) && (List.for_all is_card l);;
+
+is_deck (Deck d0);;
+is_deck (Deck (d0 @ [Card(11,Spades)]));;
+is_deck (Deck (d0 @ [Card(2,Spades)]));;

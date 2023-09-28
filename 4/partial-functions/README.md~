@@ -1,0 +1,31 @@
+# Partial functions
+
+Write the following functions:
+```ocaml
+isPar : ('a * 'b) list -> bool
+```
+returns true iff the sequence in input represents a partial function.
+
+```ocaml
+isTot : ('a * 'b) list -> bool
+```
+assuming that the sequence in input represents a partial function,
+returns true iff it is total.
+
+```ocaml
+isInj : ('a * 'b) list -> bool
+```
+assuming that the sequence in input represents a partial function,
+returns true iff it is injective.
+
+```ocaml
+isSurj : ('a * 'b) list -> bool
+```
+assuming that the sequence in
+input represents a partial function, returns true iff it is surjective.
+
+```ocaml
+isMono : ('a * 'b) list -> bool
+```
+assuming that the sequence in input represents a partial function,
+returns true iff it is monotonic.
