@@ -1,7 +1,0 @@
-let rect enum_int n = function
-    0 -> 0
-  | n when n>0 -> let n' = enum_int (n-1) in
-    if n%2=0 then n+1
-    else -(n+1)
-  | _ -> failwith "negative argument"
-;;

@@ -1,8 +1,0 @@
-type nat = Z | S of nat
-
-let rec is_even = function
-    Z -> true
-  | S(S(x)) -> is_even x
-  | _ -> false
-;;
-
