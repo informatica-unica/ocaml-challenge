@@ -1,4 +1,4 @@
-# Nand logical connective
+# Logical Nand
 
 Using pattern matching, write a function with the following type:
 ```ocaml
