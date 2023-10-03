@@ -5,4 +5,4 @@ Using pattern matching, write a function with the following type:
 nand : bool -> bool -> bool
 ```
 The function computes the logical connective nand, defined as:
- $\`nand p q = \neg (p \ \land \ q)`\$
+ $`\texttt{nand} \ p \ q = \neg (p \ \land \ q)`\$.
