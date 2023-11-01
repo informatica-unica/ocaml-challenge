@@ -1,6 +1,6 @@
 # OCaml exercises by difficulty level
 
-To work on exercises from a local repository, read the [instructions](git-setup).
+To work on exercises from a local repository, read the [instructions](setup-git).
 
 ## Level 1
 
