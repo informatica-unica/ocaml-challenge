@@ -1,8 +1,8 @@
 # OCaml exercises by difficulty level
 
 It is suggested to work on exercises using a local installation of OCaml. 
-- Read the [instruction](install-ocaml) to install OCaml on your machine;
-- Read the [instructions](setup-git) to keep your solutions to the exercises on a local repository synchronized with github.
+- Read the [instructions](tutorials/install-ocaml.md) to install OCaml on your machine;
+- Read the [instructions](tutorials/setup-git.md) to keep your solutions to the exercises on a local repository synchronized with github.
 
 ## Level 1
 
