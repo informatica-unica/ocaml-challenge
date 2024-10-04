@@ -4,9 +4,10 @@ To work on exercises from a local repository, read the [instructions](setup-git)
 
 ## Level 1
 
+1. [Logical Nand](1/nand)
+1. [Logical Xor](1/xor)
 1. [Absolute value](1/absolute-value)
 1. [Max of two natural numbers](1/maxnat)
-1. [Logical Nand](1/nand)
 1. [Weekly lectures](1/weekly-lectures)
 1. [Parrot trouble](1/parrot-trouble)
 1. [Even and odd](1/even-odd)
