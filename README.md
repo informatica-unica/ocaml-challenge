@@ -13,6 +13,7 @@ It is suggested to work on exercises using a local installation of OCaml.
 1. [Max of two natural numbers](1/maxnat)
 1. [Weekly lectures](1/weekly-lectures)
 1. [Parrot trouble](1/parrot-trouble)
+1. [Increment optional value](1/increment-option)
 1. [Exam committee](1/exam-committee)
 1. [Movie ratings](1/movie-ratings)
 1. [Even and odd](1/even-odd)
