@@ -17,6 +17,7 @@ It is suggested to work on exercises using a local installation of OCaml.
 1. [Squirrel play](1/squirrel-play)
 1. [Exam committee](1/exam-committee)
 1. [Movie ratings](1/movie-ratings)
+1. [Best offer](1/best-offer)
 1. [Even and odd](1/even-odd)
 1. [In range](1/in-range)
 1. [x to the 9th](1/exp9)
