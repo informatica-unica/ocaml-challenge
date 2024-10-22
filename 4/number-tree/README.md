@@ -27,13 +27,13 @@ let t =
 ```
 Your function should pass the following test:
 ```ocaml
-assert number_tree t =
+assert (number_tree t =
   Node((3,"d"),
     Node((2,"c"),
       Node((0,"a"),
         Empty,
         Node((1,"b"),Empty,Empty)),
     Empty),
-  Node((4,"e"),Empty,Empty))
+  Node((4,"e"),Empty,Empty)))
 ```
 *Hint*: you may need to remember some value between recursive calls...
