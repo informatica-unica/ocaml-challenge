@@ -33,4 +33,4 @@ Recall the type of [`first_third_fifth`](../first-third-fifth/README.md), which 
 ```ocaml
 first_third_fifth : 'a list -> ('a * 'a * 'a) option 
 ```
-Redefine it in terms of the `-?->` operator. 
+Redefine it in terms of the `-?->` operator.
