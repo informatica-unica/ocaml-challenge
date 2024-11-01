@@ -30,6 +30,7 @@ It is suggested to work on exercises using a local installation of OCaml.
 ## Level 2
 
 1. [Characteristic functions](2/characteristic-fun)
+1. [Function composition](2/compose)
 1. [Comparing fractions](2/fractions)
 1. [Consensus3](2/consensus3)
 1. [Tris](2/tris)
