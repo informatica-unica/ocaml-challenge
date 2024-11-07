@@ -29,11 +29,11 @@ It is suggested to work on exercises using a local installation of OCaml.
 
 ## Level 2
 
-1. [Characteristic functions](2/characteristic-fun/README.md)
 1. [Function composition](2/compose/README.md)
 1. [Pipe operator](2/pipeline/README.md)
 1. [Option map](2/option-map/README.md)
 1. [Conditional application](2/apply-if/README.md)
+1. [Characteristic functions](2/characteristic-fun/README.md)
 1. [Comparing fractions](2/fractions/README.md)
 1. [Consensus3](2/consensus3/README.md)
 1. [Tris](2/tris/README.md)
