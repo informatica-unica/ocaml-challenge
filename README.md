@@ -30,6 +30,7 @@ It is suggested to work on exercises using a local installation of OCaml.
 ## Level 2
 
 1. [Function composition](2/compose/README.md)
+1. [Flip arguments](2/flip-curry/README.md)
 1. [Pipe operator](2/pipeline/README.md)
 1. [Option map](2/option-map/README.md)
 1. [Conditional application](2/apply-if/README.md)
