@@ -20,6 +20,6 @@ The functions must be undefined on the negative integers: you can use the `failw
 1. {x | ∃y. y < 3 ∧ 7 < x y < 20 }
 1. {x | x < 50 ∧ ∃y. x = y + y}
 1. {z | ∃x. z = 2 x ∧ 0 < 2x < 50 }
-1. {z | ∃x, y. z = x + y ∧ x y ≤ 20}
+1. {z | ∃x, y. z = x + y ∧ x * y ≤ 20}
 1. {x | ∀y. y < x → y < 2 }
 1. {x | ∀y. (x mod y = 0) → (y=1 ∨ y=x) }
