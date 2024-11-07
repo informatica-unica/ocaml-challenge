@@ -1,5 +1,9 @@
 # Characteristic functions
 
+Given a set A of elements in a domain U, its **characteristic function** $\chi_A$ is defined as follows:
+- $\chi_A(x) = 1$ if $x \in A$
+- $\chi_A(x) = 0$ if $x \not\in A$
+
 Implement the characteristic function of the following sets, where the universe is the set of natural numbers. 
 
 For each item i in the list, the functions must have type:
