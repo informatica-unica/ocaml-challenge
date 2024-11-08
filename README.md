@@ -44,10 +44,10 @@ It is suggested to work on exercises using a local installation of OCaml.
 1. [Straight](2/straight/README.md)
 1. [Loaded dice](2/loaded-dice/README.md)
 1. [Morra](2/morra/README.md)
-1. [Sum range](2/sumrange/README.md)
-1. 
+
 ## Level 3
 
+1. [Sum range](3/sumrange/README.md)
 1. [Has one](3/has-one/README.md)
 1. [Count zeros of a function](3/countzero/README.md)
 1. [Bounce](3/bounce/README.md)
