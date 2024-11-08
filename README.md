@@ -79,6 +79,7 @@ It is suggested to work on exercises using a local installation of OCaml.
 1. [Alternating even numbers](4/alt-even/README.md)
 1. [Binary search trees](4/binary-search-tree/README.md)
 1. [Binary arithmetic](4/binary-arithmetic/README.md)
+1. [Grandfather and grandson](4/grandfather-grandson/README.md)
 
 ## Level 5
 
