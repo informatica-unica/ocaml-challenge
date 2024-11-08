@@ -74,3 +74,11 @@ f17 : (int -> int) -> (int -> int)
 f18 : ((int -> int) -> int) -> int
 ```
 
+```ocaml
+f19 : (int -> int) -> (bool -> bool)
+```
+
+```ocaml
+f20 : (int -> bool) -> (bool -> int)
+```
+
