@@ -1,11 +1,14 @@
 # Function composition
 
-Write a function `comp` that takes as input two functions f and g and returns a new function that is the composition of f and g (i.e., f (g x)).
-
+Write a function `comp` that takes as input two functions f and g and returns a new function h that is the composition of f and g, that is: 
+```
+h(x) = f (g x)
+```
 The function must have the following type:
 ```ocaml
 comp : ('b -> 'c) -> ('a -> 'b) -> 'a -> 'c
 ```
+where `f : 'b -> c'`, `g : 'a -> 'b`, and the type of the result is `'a -> 'c`.
 
 Here are some unit tests:
 ```ocaml
