@@ -57,6 +57,7 @@ It is suggested to work on exercises using a local installation of OCaml.
 1. [Min and max of a function](3/minmaxfun/README.md)
 1. [Reverse a list](3/rev-list/README.md)
 1. [String of list](3/string-of-list/README.md)
+1. [Palindrome](3/palindrome/README.md)
 1. [Student grades](3/cumlaude/README.md)
 1. [1st, 3rd and 5th](3/first-third-fifth/README.md)
 1. [Random list](3/rnd-list/README.md)
