@@ -11,4 +11,4 @@ Use this random generator to write a function with type:
 ```ocaml
 val rnd_list : int -> int -> int list = <fun>
 ```
-such that `rnd_list n b` generates a list of n elements in the range [1,b].
+such that `rnd_list n b` generates a list of `n` elements in the range [1,`b`].
