@@ -64,6 +64,7 @@ It is suggested to work on exercises using a local installation of OCaml.
 1. [Random list](3/rnd-list/README.md)
 1. [Rotate list](3/rotate-list/README.md)
 1. [Consecutive even](3/consecutive-even/README.md)
+1. [Key-value maps](3/keyval/README.md)
 1. [Bounce](3/bounce/README.md)
 1. [Enumeration of integers](3/enum-int/README.md)
 1. [Enumeration of pairs of naturals](3/enum-nat-nat/README.md)
