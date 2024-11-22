@@ -1,6 +1,6 @@
 # Merge Sort
 
-Let's implement the merge sort algorithm for integer lists in OCaml. Here we present the top-down approach.
+Let's implement the merge sort algorithm for integer lists in OCaml.
 
 First, write the function `merge` that takes two
 sorted lists and threads their elements together to form a new sorted list:

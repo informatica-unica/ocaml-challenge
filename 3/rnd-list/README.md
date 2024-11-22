@@ -1,6 +1,6 @@
 # Random list
 
-The function Random.int in the Ocaml library generates a
+The function `Random.int` in the Ocaml library generates a
 random number bounded by a given integer:
 ```ocaml
 # Random.int;;

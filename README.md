@@ -59,6 +59,7 @@ It is suggested to work on exercises using a local installation of OCaml.
 1. [String of list](3/string-of-list/README.md)
 1. [Palindrome](3/palindrome/README.md)
 1. [Perforated list](3/perforated/README.md)
+1. [Knife](3/knife/README.md)
 1. [Student grades](3/cumlaude/README.md)
 1. [1st, 3rd and 5th](3/first-third-fifth/README.md)
 1. [Random list](3/rnd-list/README.md)
@@ -74,6 +75,7 @@ It is suggested to work on exercises using a local installation of OCaml.
 1. [Sets](3/set/README.md) 
 1. [Simple language recognizers](3/lang-recognizers/README.md)
 1. [Extract an element from a list](3/extract/README.md)
+1. [Merge Sort](3/mergesort/README.md)
 1. [Deck of cards](3/deck-of-cards/README.md)
 1. [ALF students](3/alf-students/README.md)
 
