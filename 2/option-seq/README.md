@@ -6,7 +6,7 @@ Define an operator with type:
 ( <*> ) : ('a -> 'b) option -> 'a option -> 'b option
 ```
 
-It accepts an optional function and maps it to an optional argument. If there is no function, the result is `None`, otherwise the result is the same as [`option_map`](/2/option-map/README.md).
+It accepts an optional function and maps it to an optional argument. If there is no function, the result is `None`, otherwise the result is the same as [option_map](/2/option-map/README.md).
 
 It must pass these unit tests:
 

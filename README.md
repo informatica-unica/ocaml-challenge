@@ -77,7 +77,7 @@ It is suggested to work on exercises using a local installation of OCaml.
 1. [Sets](3/set/README.md) 
 1. [Simple language recognizers](3/lang-recognizers/README.md)
 1. [Extract an element from a list](3/extract/README.md)
-1. [Merge Sort](3/mergesort/README.md)
+1. [Merge sort](3/mergesort/README.md)
 1. [Deck of cards](3/deck-of-cards/README.md)
 1. [ALF students](3/alf-students/README.md)
 

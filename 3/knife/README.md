@@ -1,10 +1,10 @@
 # Knife 🔪
 
-Write a function `knife` that cuts a list in two sublists at a given position.
+Write a function `knife` that cuts a list in two sublists at a given position:
 ```ocaml
 knife : 'a list -> int -> 'a list * 'a list.
 ```
-The element under the knife's position must be included in the left sublist. If the knife is positioned out of bounds, the list stays intact in the output pair.
+The element under the knife's position must be included in the left sublist. If the knife's position is out of bounds, the list stays intact in one component of the output pair.
 
 Here are some unit tests:
 ```ocaml
