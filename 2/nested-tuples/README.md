@@ -27,4 +27,16 @@ You can use the string concatenation operator `^` in this function. For example:
 - : string = "Hello, world!"
 ```
 
+Write a function:
+```ocaml
+merge : (string * (int * int)) -> (string * (int * int)) -> (string * (int * int))
+```
+that, given two results of the same student, returns a new result with the maximum grades between the two results.
+For example:
+```
+merge ("Anna",(7,15)) ("Anna",(4,18));;
+- (string * (int * int)) = ("Anna",(7,18))
+```
+The function must fail if the two inputs are not results of the same student.
+
 Write unit tests for your functions, using the `assert` statement.
