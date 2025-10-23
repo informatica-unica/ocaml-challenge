@@ -32,6 +32,7 @@ It is suggested to work on exercises using a local installation of OCaml.
 
 1. [Point](2/point/README.md)
 1. [Simple calculator](2/simple-calc/README.md)
+1. [Nested tuples](2/nested-tuples/README.md)
 1. [Personal data](2/personal-data/README.md)
 1. [Function composition](2/compose/README.md)
 1. [Flip arguments](2/flip-curry/README.md)
