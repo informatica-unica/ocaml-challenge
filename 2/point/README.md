@@ -2,7 +2,13 @@
 
 Define a type `point` representing a point in the plane with two coordinates `x` and `y`, both of type `float`.
 
-Then, write a function:
+Write a function:
+```ocaml
+translate : point -> float -> float -> point
+```
+that returns the point obtained by adding the given offsets to the coordinates.
+
+Write a function:
 ```ocaml
 distance_from_origin : point -> float
 ```
@@ -17,5 +23,11 @@ Write a function:
 same_color : colored_point -> colored_point -> bool
 ```
 that returns true if the two points have the same color.
+
+Write a function:
+```ocaml
+recolor : colored_point -> color -> colored_point
+```
+that returns a new colored point with the same coordinates but a new color.
 
 Write unit tests for your functions, using the `assert` statement.
